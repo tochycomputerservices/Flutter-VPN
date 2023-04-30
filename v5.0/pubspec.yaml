@@ -1,0 +1,64 @@
+name: nizvpn
+description: Simple VPN using Platform Channel
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  app_tracking_transparency: ^2.0.3
+  cached_network_image: ^3.2.3
+  collection: ^1.17.0
+  device_apps: ^2.2.0
+  device_info: ^2.0.3
+  dio: ^5.0.2
+  easy_localization: ^3.0.1
+  firebase_core: ^2.7.1
+  firebase_crashlytics: ^3.0.16
+  flutter:
+    sdk: flutter
+  flutter_inapp_purchase:
+    git:
+      url: https://github.com/mgonzalezc/flutter_inapp_purchase.git
+      ref: fix/mindapps_fix
+  google_fonts: ^4.0.3
+  in_app_review: ^2.0.6
+  in_app_update: ^4.0.1
+  introduction_screen: ^3.1.6
+  line_icons: ^2.0.1
+  lottie: ^2.2.0
+  native_admob_flutter: ^1.5.0+1
+  ndialog: ^4.3.0
+  package_info_plus: ^3.0.3
+  provider: ^6.0.5
+  pull_to_refresh_flutter3: ^2.0.1
+  share: ^2.0.4
+  shared_preferences: ^2.0.18
+  shimmer: ^2.0.0
+  snapping_sheet: ^3.1.0
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.12.0
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path_android: "assets/icons/logo_android.png"
+  image_path_ios: "assets/icons/logo_ios.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - "assets/"
+    - "assets/icons/"
+    - "assets/icons/flags/"
+    - "assets/languages/"
+    - "assets/animations/"
+  fonts:
+    - family: NerdVPNIcon
+      fonts:
+        - asset: assets/fonts/NerdVPNIcon.ttf
